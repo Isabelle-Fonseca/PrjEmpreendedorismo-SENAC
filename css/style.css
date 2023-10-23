@@ -1,0 +1,104 @@
+body{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif ;
+    margin: 0;
+    padding: 0;
+    /*deixando a margin e padding 0 para ficar colado e nao haver espaco*/
+    color: #555;
+}
+
+
+h1, h2{
+    color: #111;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.top-bar{
+    background-color: #333;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    border-bottom: 5px solid #fd8a24;
+
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+
+}
+
+
+.headline{
+    font-size: 56px;
+    line-height: 64px;
+
+}
+
+.subtitle{
+    font-weight: normal;
+    font-size: 20px;
+
+}
+
+.author{
+    font-weight: bold;
+    font-size: 0.8em;
+    /*20% menor da div padrao do projeto*/
+}
+
+.social-icons{
+    margin-top: 10px;
+}
+
+.social-icon{
+    width: 20px;
+    padding: 10px 10px 10px 0;
+}
+
+a{
+    text-decoration: none;
+    color: #fd8a24;
+    font-weight: bold;
+}
+
+.content{
+    max-width: 880px;
+    margin: auto;
+}
+
+p{
+    font-size: 20px;
+    line-height: 32px;
+
+
+}
+
+ul, ol{
+    font-size: 20px;
+}
+
+.cta{
+    font-size: 20px;
+    margin: 30px 0;
+}
+
+figure{
+    padding: 0;
+    margin: 40px 0;
+    font-size: 12px;
+}
+
+figure>img{
+    width: 100%;
+}
+
+.footer{
+    background-color: #333;
+    height: 100px;
+}
